@@ -1,0 +1,19 @@
+<script>
+  let count = 0;
+
+  function incrementCount(e) {
+    count + 1;
+  }
+</script>
+
+<style>
+  .panel {
+    background: grey;
+    color: blue;
+  }
+</style>
+
+<view>
+  <div class="panel">The count is {count}</div>
+  <button onClick={incrementCount}>Increment</button>
+</view>
